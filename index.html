@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKD Mart - Premier B2B Mobile Solutions</title>
+    <meta name="description"
+        content="JKD Mart is the leading B2B marketplace for mobile accessories, service parts, and repair tools. Bulk ordering, fast delivery, and quality assurance for vendors and retailers.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css?v=8">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="no-scroll">
+    <!-- Video Splash Screen -->
+    <div id="video-splash" class="video-splash">
+        <video id="intro-video-desktop" class="intro-video desktop-video" autoplay muted playsinline>
+            <source src="assets/promo.mp4?v=5" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video id="intro-video-mobile" class="intro-video mobile-video" autoplay muted playsinline>
+            <source src="assets/mobile_promo.mp4?v=1" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <button id="skip-video-btn" class="skip-btn" title="Skip Video"><i class="fa-solid fa-forward-step"></i></button>
+    </div>
+
+    <header id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="JKD Mart Logo">
+            </a>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#products">Our Categories</a>
+                <a href="#features">Why JKD?</a>
+                <a href="#solutions">Solutions</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="coming-soon.html" target="_blank" class="btn btn-primary">Get the App</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <div class="sliding-background">
+                    <div class="slide-track">
+                        <!-- Slides -->
+                        <div class="slide"><img src="assets/bg_circuit.jpg" alt="Circuit Board"></div>
+                        <div class="slide"><img src="assets/bg_tools.jpg" alt="Repair Tools"></div>
+                        <div class="slide"><img src="assets/bg_mobile.jpg" alt="Mobile Parts"></div>
+                        <div class="slide"><img src="assets/bg_cable.jpg" alt="Cables"></div>
+                        <div class="slide"><img src="assets/bg_battery.jpg" alt="Battery"></div>
+                        <div class="slide"><img src="assets/bg_screen.jpg" alt="Screen Display"></div>
+
+                        <!-- Duplicate for seamless loop -->
+                        <div class="slide"><img src="assets/bg_circuit.jpg" alt="Circuit Board"></div>
+                        <div class="slide"><img src="assets/bg_tools.jpg" alt="Repair Tools"></div>
+                        <div class="slide"><img src="assets/bg_mobile.jpg" alt="Mobile Parts"></div>
+                    </div>
+                </div>
+                <!-- <canvas id="hero-canvas"></canvas> -->
+                <div class="video-overlay"></div>
+            </div>
+            <div class="container hero-content">
+                <div class="hero-text-wrapper center-text">
+                    <span class="badge">B2B Wholesale Platform</span>
+                    <h1>Trade Better, <br>Scale <span class="text-gradient">Faster</span>.</h1>
+                    <p class="hero-subtitle">The ultimate marketplace for mobile accessories, spare parts, and tools.
+                        Designed exclusively for vendors and retailers.</p>
+                    <div class="hero-buttons">
+                        <a href="coming-soon.html" target="_blank" class="btn btn-primary icon-btn">
+                            <i class="fa-brands fa-google-play"></i> Vendor App
+                        </a>
+                        <a href="coming-soon.html" target="_blank" class="btn btn-secondary icon-btn">
+                            <i class="fa-brands fa-apple"></i> Retailer App
+                        </a>
+                    </div>
+                    <div class="trust-indicators">
+                        <div class="trust-item">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <span>City-Wide Fast Delivery</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fa-solid fa-shield-check"></i>
+                            <span>Quality Assured</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Visual hidden as background takes prominence -->
+                <!-- <div class="hero-visual">
+                    <img src="assets/hero_image.png" alt="JKD Mart App Ecosystem" class="hero-image">
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Stats/Trusted By Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>5000+</h3>
+                        <p>Products</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100+</h3>
+                        <p>Verified Vendors</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24h</h3>
+                        <p>Delivery Turnaround</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="products-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Our <span class="text-gradient">Categories</span></h2>
+                    <p>Everything you need for your mobile business in one place.</p>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fa-solid fa-mobile-screen"></i>
+                        </div>
+                        <h3>Mobile Accessories</h3>
+                        <ul>
+                            <li>Covers & Cases</li>
+                            <li>Screen Guards</li>
+                            <li>Chargers & Cables</li>
+                            <li>Power Banks</li>
+                        </ul>
+                        <a href="#" class="text-btn">View All <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h3>Repair Tools</h3>
+                        <ul>
+                            <li>Screwdrivers</li>
+                            <li>Opening Tools</li>
+                            <li>Soldering Stations</li>
+                            <li>Microscopes</li>
+                        </ul>
+                        <a href="#" class="text-btn">View All <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3>Service Parts</h3>
+                        <ul>
+                            <li>LCD Displays</li>
+                            <li>Batteries</li>
+                            <li>Charging Flex</li>
+                            <li>IC & Components</li>
+                        </ul>
+                        <a href="#" class="text-btn">View All <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Proposition -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Why Choose <span class="text-gradient">JKD Mart</span>?</h2>
+                    <p>We bridge the gap between wholesale suppliers and retailers with technology.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+                        <h3>Bulk Ordering</h3>
+                        <p>Streamlined process for large volume orders with dynamic pricing tiers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>Our own logistics fleet ensures your stock arrives same-day or next-day.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-check-double"></i>
+                        </div>
+                        <h3>Quality Assurance</h3>
+                        <p>Every product is vetted. Genuine parts and premium accessories only.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                        </div>
+                        <h3>Free Shipping</h3>
+                        <p>Zero shipping costs on qualified bulk orders. Maximize your margins.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Ecosystem -->
+        <section id="solutions" class="app-ecosystem">
+            <div class="container ecosystem-container">
+                <div class="ecosystem-text">
+                    <h2>Tailored for Your Role</h2>
+                    <p>Whether you are supplying or selling, we have a dedicated platform for you.</p>
+
+                    <div class="role-tabs">
+                        <button class="role-tab active" data-target="retailer">For Retailers</button>
+                        <button class="role-tab" data-target="vendor">For Vendors</button>
+                    </div>
+
+                    <div class="role-content active" id="retailer">
+                        <h3>Source Smarter</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Access thousands of SKUs</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Real-time stock availability</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Credit facilities available</li>
+                        </ul>
+                    </div>
+                    <div class="role-content" id="vendor">
+                        <h3>Sell Faster</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-circle-check"></i> Reach city-wide network</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Automated payments</li>
+                            <li><i class="fa-solid fa-circle-check"></i> Analytics dashboard</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ecosystem-visual">
+                    <img src="assets/retailer_app_mockup.png" alt="JKD Mart Retailer App" class="app-mockup-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header center">
+                    <h2>Get in <span class="text-gradient">Touch</span></h2>
+                    <p>Have questions? We are here to help.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>+91 8073582068</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>support@jkdmart.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>KT Street Mysore</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="download" class="cta-section">
+            <div class="cta-bg-overlay"></div>
+            <div class="container cta-content">
+                <h2>Ready to Upgrade Your Business?</h2>
+                <p>Download the JKD Mart app today and join the network.</p>
+                <div class="app-buttons">
+                    <a href="coming-soon.html" target="_blank" class="store-btn">
+                        <i class="fa-brands fa-google-play"></i>
+                        <div class="btn-text">
+                            <span>GET IT ON</span>
+                            <strong>Google Play</strong>
+                        </div>
+                    </a>
+                    <a href="coming-soon.html" target="_blank" class="store-btn">
+                        <i class="fa-brands fa-apple"></i>
+                        <div class="btn-text">
+                            <span>Download on the</span>
+                            <strong>App Store</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <img src="assets/logo.png" alt="JKD Mart" class="footer-logo">
+                <div class="social-links">
+                    <a href="#" class="social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="#">Retailers</a></li>
+                    <li><a href="#">Vendors</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#features">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 8073582068</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>support@jkdmart.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2025 JKD Mart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js?v=4"></script>
+</body>
+
+</html>
